@@ -330,7 +330,7 @@ export class PasportDateGaneration {
         cy.get('#birthDay2 > .mx-datepicker > .mx-input-wrapper > .form__group > #date').type('2503').type(getRandomInt(2021, 2021))
         cy.get(':nth-child(4) > .traveller-box > .traveller-data > .series-separately > :nth-child(1) > #seriesNumbers').type('IV')
         cy.get(':nth-child(4) > .traveller-box > .traveller-data > .series-separately > :nth-child(3) > #seriesLetters').type('КП')
-        cy.get(':nth-child(4) > .traveller-box > .traveller-data > :nth-child(9) > #number').type(getRandomInt(111111, 999999))
+        cy.get(':nth-child(4) > .traveller-box > .traveller-data > :nth-child(9) > #number').type(getRandomInt(111121, 999999))
 
         cy.get(':nth-child(1) > #lastName').type('Тест')
         cy.get(':nth-child(2) > #firstName').type('Тест')
